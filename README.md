@@ -11,8 +11,8 @@
 3. 解决设置间隔后，item大小不一的问题等。。。
 
 使用方法：
-recyclerView.addItemDecoration(new GridDividerItemDecoration(this,Utils.dp2px(getContext(),20)
-                                ,Utils.dp2px(getContext(),15),true));
+`
+recyclerView.addItemDecoration(new GridDividerItemDecoration(this,Utils.dp2px(getContext(),20),Utils.dp2px(getContext(),15),true));`
                                 
 
 GridDividerItemDecoration构造函数有几种，分别可以设置是否需要添加首尾列与父布局之间间隔；是否需要添加第一行与父布局的间隔；最后一行是否需要间隔等
