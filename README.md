@@ -1,4 +1,6 @@
 # GridDividerItemDecoration
+[简书相关介绍文章：https://www.jianshu.com/p/fb7e1a0749d6](https://www.jianshu.com/p/fb7e1a0749d6)
+
 这个GridDividerItemDecoration适用于适用RecyclerView时，采用GridLayoutManager时，间隔计算问题：
 具体为：
 1. 可以在首尾列与父布局之间添加间隔
