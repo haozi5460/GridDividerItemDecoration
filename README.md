@@ -29,3 +29,10 @@ GridDividerItemDecoration构造函数有几种，分别可以设置：
 - 是否需要添加首尾列与父布局之间间隔；
 - 是否需要添加第一行与父布局的间隔；
 - 最后一行是否需要间隔等;
+
+Adapter  xml文件设置有两种Type：
+1.  item_adpater_for_not_set_width_height.xml
+    此xml描述了不设置具体item 的宽高，由程序自己设置
+    
+2.  item_adpater_for_specific_width_height.xml
+    此xml描述了设置具体item 的宽高
